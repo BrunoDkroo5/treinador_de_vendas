@@ -1,0 +1,518 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  background-color: rgb(0, 8, 77);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(1, 21, 95) 100%);
+}
+@keyframes ef-pulse-grow {
+  to {
+    transform: scale(1.1);
+  }
+}
+.centralization {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.container-top {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(1, 21, 95) 100%);
+}
+
+.headline {
+  gap: 25px;
+  padding-top: 80px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.image img {
+  width: 600px;
+}
+
+.calltoaction h1 {
+  text-align: start;
+  line-height: 55px;
+  text-shadow: 2px 2px 2px rgb(70, 54, 1);
+  font-size: 48px;
+  color: white;
+  margin-bottom: 25px;
+}
+.calltoaction #texto-intro {
+  width: 500px;
+  color: white;
+  text-align: justify;
+}
+.calltoaction button {
+  width: 500px;
+  height: 60px;
+  margin-top: 40px;
+  border: 0;
+  border-radius: 15px;
+  background-color: rgb(255, 196, 0);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  animation-name: ef-pulse-grow;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.calltoaction button a {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+.calltoaction button p {
+  text-shadow: 2px 2px 2px black;
+  width: 500px;
+}
+.calltoaction button span {
+  text-align: start;
+  padding-left: 40px;
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calltoaction button span img {
+  width: 40px;
+  height: 40px;
+}
+
+.icons {
+  margin-top: 20px;
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 15px;
+}
+
+.checkout {
+  color: rgb(255, 196, 0);
+  display: flex;
+  text-align: start;
+  align-items: center;
+  gap: 7px;
+}
+.checkout img {
+  background-color: white;
+  width: 45px;
+  height: 45px;
+}
+
+.satisfacao {
+  color: rgb(255, 196, 0);
+  display: flex;
+  text-align: start;
+  align-items: center;
+  gap: 7px;
+}
+.satisfacao img {
+  background-color: white;
+  width: 45px;
+  height: 45px;
+}
+
+.privacidade {
+  color: rgb(255, 196, 0);
+  display: flex;
+  text-align: start;
+  align-items: center;
+  gap: 7px;
+}
+.privacidade img {
+  background-color: white;
+  width: 45px;
+  height: 45px;
+}
+
+.calltoaction-2 {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.calltoaction-2 .video {
+  margin-top: 40px;
+  width: 560px;
+  height: 315px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.calltoaction-2 h1 {
+  margin-top: 80px;
+  text-align: center;
+  color: rgb(255, 196, 0);
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.cards {
+  margin-top: 35px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cards p {
+  text-align: center;
+}
+.cards h3 {
+  margin-top: 30px;
+}
+
+.card {
+  text-align: center;
+  color: #fff;
+  padding: 25px;
+  width: 400px;
+  height: 300px;
+}
+.card img {
+  width: 100px;
+}
+
+.card-1 {
+  text-align: center;
+  padding: 25px;
+  width: 400px;
+  height: 300px;
+  background-color: white;
+}
+.card-1 img {
+  width: 100px;
+}
+
+.back {
+  gap: 30px;
+  padding-top: 30px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(1, 21, 95) 100%);
+}
+
+.promo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image-promo img {
+  width: 600px;
+}
+
+.calltoaction-3 {
+  padding: 15px;
+}
+.calltoaction-3 h1 {
+  text-align: start;
+  line-height: 35px;
+  text-shadow: 2px 2px 2px black;
+  font-size: 35px;
+  color: white;
+  margin-bottom: 25px;
+}
+.calltoaction-3 p {
+  text-align: justify;
+  color: white;
+}
+.calltoaction-3 button {
+  width: 500px;
+  height: 60px;
+  margin-top: 40px;
+  border: 0;
+  border-radius: 15px;
+  background-color: rgb(255, 196, 0);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  animation-name: ef-pulse-grow;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.calltoaction-3 button a {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
+.calltoaction-3 button p {
+  width: 500px;
+  text-shadow: 2px 2px 2px black;
+}
+.calltoaction-3 button span {
+  text-align: start;
+  padding-left: 40px;
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calltoaction-3 button span img {
+  width: 40px;
+  height: 40px;
+}
+.calltoaction-3 .icons {
+  margin-top: 20px;
+  width: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 15px;
+}
+.calltoaction-3 .checkout {
+  display: flex;
+  text-align: start;
+  align-items: center;
+  gap: 7px;
+}
+.calltoaction-3 .checkout img {
+  width: 45px;
+  height: 45px;
+}
+.calltoaction-3 .satisfacao {
+  display: flex;
+  text-align: start;
+  align-items: center;
+  gap: 7px;
+}
+.calltoaction-3 .satisfacao img {
+  width: 45px;
+  height: 45px;
+}
+.calltoaction-3 .privacidade {
+  display: flex;
+  text-align: start;
+  align-items: center;
+  gap: 7px;
+}
+.calltoaction-3 .privacidade img {
+  width: 45px;
+  height: 45px;
+}
+
+.garantia {
+  margin-top: 60px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image-garan img {
+  width: 400px;
+}
+
+.calltoaction-4 h1 {
+  text-align: center;
+  line-height: 35px;
+  text-shadow: 2px 2px 2px black;
+  font-size: 35px;
+  color: rgb(167, 0, 0);
+  margin-bottom: 25px;
+}
+.calltoaction-4 p {
+  text-align: center;
+  color: black;
+}
+
+.suporte {
+  text-align: center;
+}
+
+.support-btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  background-color: #3498db;
+  color: #fff;
+  margin: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.support-btn a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+.support-btn:hover {
+  background-color: #2980b9;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 1180px) {
+  .headline {
+    flex-direction: column;
+    padding-top: 15px;
+  }
+  .image {
+    top: 50px;
+  }
+  .calltoaction {
+    text-align: center;
+  }
+  .calltoaction h1 {
+    text-align: center;
+  }
+  .calltoaction p {
+    margin: 0 auto;
+  }
+  .calltoaction button {
+    margin: 20px;
+  }
+  .icons {
+    margin: 0 auto;
+  }
+  .promo {
+    flex-direction: column;
+  }
+  .calltoaction-3 {
+    text-align: center;
+  }
+  .calltoaction-3 h1 {
+    text-align: center;
+    line-height: 40px;
+  }
+  .image-promo {
+    top: 100px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .garantia {
+    flex-direction: column-reverse;
+  }
+  .calltoaction-4 h1 {
+    text-align: center;
+  }
+  .calltoaction-4 p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .calltoaction-2 h1 {
+    font-size: 30px;
+  }
+  .image img {
+    width: 350px;
+  }
+  .image-promo img {
+    width: 350px;
+  }
+  .video {
+    scale: 0.9;
+  }
+}
+@media screen and (max-width: 600px) {
+  .calltoaction h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .calltoaction button {
+    width: 370px;
+  }
+  .calltoaction button span {
+    text-align: center;
+  }
+  .calltoaction button span p {
+    width: 100%;
+  }
+  .promo button {
+    width: 370px;
+  }
+  .promo button p {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 528px) {
+  .icons {
+    scale: 0.9;
+  }
+  .calltoaction {
+    scale: 0.7;
+  }
+  .calltoaction button p {
+    position: relative;
+    left: -16px;
+  }
+  .calltoaction h1 {
+    position: relative;
+    top: -90px;
+  }
+  .calltoaction-2 {
+    scale: 0.7;
+  }
+  .calltoaction-2 h1 {
+    position: relative;
+    top: -50px;
+  }
+  .cards {
+    position: relative;
+    top: -55px;
+  }
+  .promo {
+    position: relative;
+    top: -35px;
+  }
+  .image-promo img {
+    position: relative;
+    top: 55px;
+  }
+  .calltoaction-3 {
+    scale: 0.7;
+  }
+  .calltoaction-3 button p {
+    position: relative;
+    left: -16px;
+  }
+  .calltoaction-4 {
+    scale: 0.7;
+  }
+  .card {
+    width: 360px;
+  }
+  .card-1 {
+    width: 360px;
+  }
+  .image-garan img {
+    width: 345px;
+  }
+}/*# sourceMappingURL=style.css.map */
